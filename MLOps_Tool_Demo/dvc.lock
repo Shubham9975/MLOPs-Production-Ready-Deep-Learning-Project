@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  stage_1:
+    cmd: python pipeline/stage_01.py
+    deps:
+    - path: pipeline/stage_01.py
+      hash: md5
+      md5: d1a8d713c51f32b6830d97163d7c139a
+      size: 78
